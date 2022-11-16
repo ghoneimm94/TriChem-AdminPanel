@@ -1,0 +1,21 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/TriChem
+/TriChem.AdminPanel/bin
+/TriChem.AdminPanel/obj
+/TriChem.API/bin
+/TriChem.API/obj
+/TriChem.Business/bin
+/TriChem.Business/obj
+/TriChem.DataAccess/bin
+/TriChem.DataAccess/obj
+/TriChem.Domain/bin
+/TriChem.Doamin/obj
+/TriChem.Models/bin
+/TriChem.Models/obj
+/TriChem.Helpers/bin
+/TriChem.Helpers/obj
+/TriChem.Resources/bin
+/TriChem.Resources/obj

@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A222A8FB-C7F1-45FE-9F88-1E82316974B4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TriChem.Models</RootNamespace>
+    <AssemblyName>TriChem.Models</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Category\SearchModels\CategorySM.cs" />
+    <Compile Include="Category\ViewModels\CategoryDetailsVM.cs" />
+    <Compile Include="Category\ViewModels\CategoryListVM.cs" />
+    <Compile Include="Category\ViewModels\CategoryListWithChildsVM.cs" />
+    <Compile Include="Certificate\SearchModels\CertificateSM.cs" />
+    <Compile Include="Certificate\ViewModels\CertificateDetailsVM.cs" />
+    <Compile Include="Certificate\ViewModels\CertificateListVM.cs" />
+    <Compile Include="ClientFeedback\SearchModels\ClientFeedbackSM.cs" />
+    <Compile Include="ClientFeedback\ViewModels\ClientFeedbackDetailsVM.cs" />
+    <Compile Include="ClientFeedback\ViewModels\ClientFeedbackListVM.cs" />
+    <Compile Include="Client\SearchModels\ClientSM.cs" />
+    <Compile Include="Client\ViewModels\ClientDetailsVM.cs" />
+    <Compile Include="Client\ViewModels\ClientListVM.cs" />
+    <Compile Include="ContactInfo\SearchModels\ContactInfoSM.cs" />
+    <Compile Include="ContactInfo\ViewModels\ContactInfoDetailsVM.cs" />
+    <Compile Include="ContactInfo\ViewModels\ContactInfoListVM.cs" />
+    <Compile Include="CustomerCertificate\SearchModels\CustomerCertificateSM.cs" />
+    <Compile Include="CustomerCertificate\ViewModels\CustomerCertificateDetailsVM.cs" />
+    <Compile Include="CustomerCertificate\ViewModels\CustomerCertificateListVM.cs" />
+    <Compile Include="News\SearchModels\NewsSM.cs" />
+    <Compile Include="News\ViewModels\NewsDetailsVM.cs" />
+    <Compile Include="News\ViewModels\NewsListVM.cs" />
+    <Compile Include="Paging\PagingSM.cs" />
+    <Compile Include="Product\SearchModels\ProductSM.cs" />
+    <Compile Include="Product\ViewModels\ProductDetailsVM.cs" />
+    <Compile Include="Product\ViewModels\ProductListVM.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

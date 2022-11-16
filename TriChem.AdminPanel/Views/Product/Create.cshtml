@@ -1,0 +1,173 @@
+﻿@model TriChem.Models.Product.ViewModels.ProductDetailsVM
+
+@{
+  ViewBag.Title = "Create";
+}
+
+<div class="flex-between py-5">
+  <h2 class="text-white m-0">Create New Product</h2>
+  <div>
+    @Html.ActionLink("Back to List", "Index", null, new { @class = "btn btn-warning py-3" })
+  </div>
+</div>
+
+@{
+  if (ViewBag.Message != null)
+  {
+    <div class="jumbotron alert-danger">
+      <div class="lead">@ViewBag.Message</div>
+    </div>
+  }
+}
+
+@using (Html.BeginForm("Create", "Product", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+  @Html.AntiForgeryToken()
+
+  <div class="form-horizontal box-shadow bg-white b-6 p-5">
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    <div class="form-group">
+      @Html.LabelFor(model => model.Title, htmlAttributes: new { @class = "control-label col-md-2" })
+      <div class="col-md-4">
+        @Html.EditorFor(model => model.Title, new { htmlAttributes = new { @class = "form-control" } })
+        @Html.ValidationMessageFor(model => model.Title, "", new { @class = "text-danger" })
+      </div>
+      @Html.LabelFor(model => model.Title_Ar, htmlAttributes: new { @class = "control-label col-md-2" })
+      <div class="col-md-4">
+        @Html.EditorFor(model => model.Title_Ar, new { htmlAttributes = new { @class = "form-control" } })
+        @Html.ValidationMessageFor(model => model.Title_Ar, "", new { @class = "text-danger" })
+      </div>
+    </div>
+
+    <div class="form-group">
+      @Html.LabelFor(model => model.SubTitle, htmlAttributes: new { @class = "control-label col-md-2" })
+      <div class="col-md-4">
+        @Html.EditorFor(model => model.SubTitle, new { htmlAttributes = new { @class = "form-control" } })
+        @Html.ValidationMessageFor(model => model.SubTitle, "", new { @class = "text-danger" })
+      </div>
+      @Html.LabelFor(model => model.SubTitle_Ar, htmlAttributes: new { @class = "control-label col-md-2" })
+      <div class="col-md-4">
+        @Html.EditorFor(model => model.SubTitle_Ar, new { htmlAttributes = new { @class = "form-control" } })
+        @Html.ValidationMessageFor(model => model.SubTitle_Ar, "", new { @class = "text-danger" })
+      </div>
+    </div>
+
+    <div class="form-group">
+      @Html.LabelFor(model => model.Description, htmlAttributes: new { @class = "control-label col-md-2" })
+      <div class="col-md-4">
+        @Html.EditorFor(model => model.Description, new { htmlAttributes = new { @class = "form-control" } })
+        @Html.ValidationMessageFor(model => model.Description, "", new { @class = "text-danger" })
+      </div>
+      @Html.LabelFor(model => model.Description_Ar, htmlAttributes: new { @class = "control-label col-md-2" })
+      <div class="col-md-4">
+        @Html.EditorFor(model => model.Description_Ar, new { htmlAttributes = new { @class = "form-control" } })
+        @Html.ValidationMessageFor(model => model.Description_Ar, "", new { @class = "text-danger" })
+      </div>
+    </div>
+
+    <div class="form-group">
+      @Html.LabelFor(model => model.TypicalApplication, htmlAttributes: new { @class = "control-label col-md-2" })
+      <div class="col-md-4">
+        @Html.EditorFor(model => model.TypicalApplication, new { htmlAttributes = new { @class = "form-control" } })
+        @Html.ValidationMessageFor(model => model.TypicalApplication, "", new { @class = "text-danger" })
+      </div>
+      @Html.LabelFor(model => model.TypicalApplication_Ar, htmlAttributes: new { @class = "control-label col-md-2" })
+      <div class="col-md-4">
+        @Html.EditorFor(model => model.TypicalApplication_Ar, new { htmlAttributes = new { @class = "form-control" } })
+        @Html.ValidationMessageFor(model => model.TypicalApplication_Ar, "", new { @class = "text-danger" })
+      </div>
+    </div>
+
+    <div class="form-group">
+      @Html.LabelFor(model => model.ProductFeatures, htmlAttributes: new { @class = "control-label col-md-2" })
+      <div class="col-md-4">
+        @Html.EditorFor(model => model.ProductFeatures, new { htmlAttributes = new { @class = "form-control" } })
+        @Html.ValidationMessageFor(model => model.ProductFeatures, "", new { @class = "text-danger" })
+      </div>
+      @Html.LabelFor(model => model.ProductFeatures_Ar, htmlAttributes: new { @class = "control-label col-md-2" })
+      <div class="col-md-4">
+        @Html.EditorFor(model => model.ProductFeatures_Ar, new { htmlAttributes = new { @class = "form-control" } })
+        @Html.ValidationMessageFor(model => model.ProductFeatures_Ar, "", new { @class = "text-danger" })
+      </div>
+    </div>
+
+    <div class="form-group">
+      @Html.LabelFor(model => model.Properties, htmlAttributes: new { @class = "control-label col-md-2" })
+      <div class="col-md-4">
+        @Html.EditorFor(model => model.Properties, new { htmlAttributes = new { @class = "form-control" } })
+        @Html.ValidationMessageFor(model => model.Properties, "", new { @class = "text-danger" })
+      </div>
+      @Html.LabelFor(model => model.Properties_Ar, htmlAttributes: new { @class = "control-label col-md-2" })
+      <div class="col-md-4">
+        @Html.EditorFor(model => model.Properties_Ar, new { htmlAttributes = new { @class = "form-control" } })
+        @Html.ValidationMessageFor(model => model.Properties_Ar, "", new { @class = "text-danger" })
+      </div>
+    </div>
+
+    <div class="form-group">
+      @Html.LabelFor(model => model.Index, htmlAttributes: new { @class = "control-label col-md-2" })
+      <div class="col-md-4">
+        @Html.EditorFor(model => model.Index, new { htmlAttributes = new { @class = "form-control" } })
+        @Html.ValidationMessageFor(model => model.Index, "", new { @class = "text-danger" })
+      </div>
+      @Html.LabelFor(model => model.CategoryTitle, htmlAttributes: new { @class = "control-label col-md-2" })
+      <div class="col-md-4">
+        @Html.DropDownListFor(c => c.CategoryId, ViewBag.CategoryTitleList as SelectList, "Select Category", new { @class = "form-control", required = "required" })
+      </div>
+    </div>
+
+
+
+    <div class="form-group">
+      @Html.LabelFor(model => model.DataSheetPath, htmlAttributes: new { @class = "control-label col-md-2" })
+      <div class="col-md-4">
+        <div class="choose_file">
+          <input type="file" name="DataSheet" accept=".pdf" style="width: 32px; height: 32px" required />
+        </div>
+        @Html.ValidationMessageFor(model => model.DataSheetPath, "", new { @class = "text-danger" })
+      </div>
+
+      @Html.LabelFor(model => model.DataSheetPath_Ar, htmlAttributes: new { @class = "control-label col-md-2" })
+      <div class="col-md-4">
+        <div class="choose_file">
+          <input type="file" name="DataSheet_Ar" accept=".pdf" style="width: 32px; height: 32px" required />
+          @Html.ValidationMessageFor(model => model.DataSheetPath_Ar, "", new { @class = "text-danger" })
+        </div>
+      </div>
+
+      @Html.LabelFor(model => model.CertificatePath, htmlAttributes: new { @class = "control-label col-md-2" })
+      <div class="col-md-4">
+        <div class="choose_file">
+          <input type="file" name="Certificate" accept=".pdf" style="width: 32px; height: 32px" required />
+          @Html.ValidationMessageFor(model => model.CertificatePath, "", new { @class = "text-danger" })
+        </div>
+      </div>
+    </div>
+
+    <div class="form-group">
+      
+      @Html.LabelFor(model => model.ImageURLs, htmlAttributes: new { @class = "control-label col-md-2" })
+      <div class="col-md-4">
+        <div class="choose_file">
+          <input type="file" name="Images" accept=".png,.jpg,.jpeg,.gif" multiple style="width: 32px; height: 32px" required />
+          @Html.ValidationMessageFor(model => model.ImageURLs, "", new { @class = "text-danger" })
+        </div>
+      </div>
+    </div>
+
+    <div class="form-group">
+      @Html.LabelFor(model => model.LinkId, htmlAttributes: new { @class = "control-label col-md-2" })
+      <div class="col-md-10">
+        @Html.DropDownListFor(c => c.LinkId, ViewBag.ProductTitleList as SelectList, "Select Related Products", new { @class = "form-control", required = "required", multiple = "multiple" })
+        @Html.ValidationMessageFor(model => model.LinkId, "", new { @class = "text-danger" })
+      </div>
+    </div>
+
+    <div class="form-group">
+      <div class="col-xs-12 text-center">
+        <input type="submit" value="Create" class="btn btn-success" style="padding: 8px 55px;" />
+      </div>
+    </div>
+  </div>
+}
+

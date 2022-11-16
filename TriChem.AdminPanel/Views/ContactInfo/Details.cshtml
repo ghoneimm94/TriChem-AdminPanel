@@ -1,0 +1,51 @@
+﻿@model TriChem.AdminPanel.Models.Result<TriChem.Models.ContactInfo.ViewModels.ContactInfoDetailsVM>
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<div class="flex-between py-5">
+  <h2 class="text-white m-0">Contact Info Details</h2>
+  <div>
+    @Html.ActionLink("Back to List", "Index", null, new { @class = "btn btn-warning py-3" })
+    &nbsp;&nbsp;
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Entity.Id }, new { @class = "btn btn-primary py-3" })
+  </div>
+</div>
+
+<div class="box-shadow bg-white b-6 p-5">
+    <dl class="dl-horizontal">
+        <dt class="py-2">
+            @Html.DisplayNameFor(model => model.Entity.Code)
+        </dt>
+
+        <dd class="py-2">
+            @Html.DisplayFor(model => model.Entity.Code)
+        </dd>
+
+        <dt class="py-2">
+            @Html.DisplayNameFor(model => model.Entity.Info)
+        </dt>
+
+        <dd class="py-2">
+            @Html.DisplayFor(model => model.Entity.Info)
+        </dd>
+
+        <dt class="py-2">
+            @Html.DisplayNameFor(model => model.Entity.Description)
+        </dt>
+
+        <dd class="py-2">
+            @Html.DisplayFor(model => model.Entity.Description)
+        </dd>
+
+        <dt class="py-2">
+            @Html.DisplayNameFor(model => model.Entity.Description_Ar)
+        </dt>
+
+        <dd class="py-2">
+            @Html.DisplayFor(model => model.Entity.Description_Ar)
+        </dd>
+
+    </dl>
+</div>

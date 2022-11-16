@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="TriChemModelStoreContainer" CdmEntityContainer="TriChemEntities">
+    <EntitySetMapping Name="Category">
+      <EntityTypeMapping TypeName="TriChemModel.Category">
+        <MappingFragment StoreEntitySet="Category">
+          <ScalarProperty Name="Description_Ar" ColumnName="Description_Ar" />
+          <ScalarProperty Name="Title_Ar" ColumnName="Title_Ar" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Certificate">
+      <EntityTypeMapping TypeName="TriChemModel.Certificate">
+        <MappingFragment StoreEntitySet="Certificate">
+          <ScalarProperty Name="Title_Ar" ColumnName="Title_Ar" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="ImageURL" ColumnName="ImageURL" />
+          <ScalarProperty Name="FilePath" ColumnName="FilePath" />
+          <ScalarProperty Name="CategoryId" ColumnName="CategoryId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Client">
+      <EntityTypeMapping TypeName="TriChemModel.Client">
+        <MappingFragment StoreEntitySet="Client">
+          <ScalarProperty Name="Title_Ar" ColumnName="Title_Ar" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="ImageURL" ColumnName="ImageURL" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ClientFeedback">
+      <EntityTypeMapping TypeName="TriChemModel.ClientFeedback">
+        <MappingFragment StoreEntitySet="ClientFeedback">
+          <ScalarProperty Name="Message_Ar" ColumnName="Message_Ar" />
+          <ScalarProperty Name="ClientPosition_Ar" ColumnName="ClientPosition_Ar" />
+          <ScalarProperty Name="ClientName_Ar" ColumnName="ClientName_Ar" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ClientName" ColumnName="ClientName" />
+          <ScalarProperty Name="ClientPosition" ColumnName="ClientPosition" />
+          <ScalarProperty Name="Message" ColumnName="Message" />
+          <ScalarProperty Name="ImageURL" ColumnName="ImageURL" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ContactInfo">
+      <EntityTypeMapping TypeName="TriChemModel.ContactInfo">
+        <MappingFragment StoreEntitySet="ContactInfo">
+          <ScalarProperty Name="Description_Ar" ColumnName="Description_Ar" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="Info" ColumnName="Info" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CustomerCertificate">
+      <EntityTypeMapping TypeName="TriChemModel.CustomerCertificate">
+        <MappingFragment StoreEntitySet="CustomerCertificate">
+          <ScalarProperty Name="Title_Ar" ColumnName="Title_Ar" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="ImageURL" ColumnName="ImageURL" />
+          <ScalarProperty Name="FilePath" ColumnName="FilePath" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="History">
+      <EntityTypeMapping TypeName="TriChemModel.History">
+        <MappingFragment StoreEntitySet="History">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="CustomerName" ColumnName="CustomerName" />
+          <ScalarProperty Name="ImageURL" ColumnName="ImageURL" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="News">
+      <EntityTypeMapping TypeName="TriChemModel.News">
+        <MappingFragment StoreEntitySet="News">
+          <ScalarProperty Name="Description_Ar" ColumnName="Description_Ar" />
+          <ScalarProperty Name="Title_Ar" ColumnName="Title_Ar" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="ImageURL" ColumnName="ImageURL" />
+          <ScalarProperty Name="LinkId" ColumnName="LinkId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Product">
+      <EntityTypeMapping TypeName="TriChemModel.Product">
+        <MappingFragment StoreEntitySet="Product">
+          <ScalarProperty Name="Index" ColumnName="Index" />
+          <ScalarProperty Name="DataSheetPath_Ar" ColumnName="DataSheetPath_Ar" />
+          <ScalarProperty Name="Properties_Ar" ColumnName="Properties_Ar" />
+          <ScalarProperty Name="ProductFeatures_Ar" ColumnName="ProductFeatures_Ar" />
+          <ScalarProperty Name="TypicalApplication_Ar" ColumnName="TypicalApplication_Ar" />
+          <ScalarProperty Name="Description_Ar" ColumnName="Description_Ar" />
+          <ScalarProperty Name="SubTitle_Ar" ColumnName="SubTitle_Ar" />
+          <ScalarProperty Name="Title_Ar" ColumnName="Title_Ar" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="SubTitle" ColumnName="SubTitle" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="TypicalApplication" ColumnName="TypicalApplication" />
+          <ScalarProperty Name="ProductFeatures" ColumnName="ProductFeatures" />
+          <ScalarProperty Name="Properties" ColumnName="Properties" />
+          <ScalarProperty Name="DataSheetPath" ColumnName="DataSheetPath" />
+          <ScalarProperty Name="CertificatePath" ColumnName="CertificatePath" />
+          <ScalarProperty Name="CategoryId" ColumnName="CategoryId" />
+          <ScalarProperty Name="LinkId" ColumnName="LinkId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProductImage">
+      <EntityTypeMapping TypeName="TriChemModel.ProductImage">
+        <MappingFragment StoreEntitySet="ProductImage">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ProductId" ColumnName="ProductId" />
+          <ScalarProperty Name="ImageURL" ColumnName="ImageURL" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CategoryImage">
+      <EntityTypeMapping TypeName="TriChemModel.CategoryImage">
+        <MappingFragment StoreEntitySet="CategoryImage">
+          <ScalarProperty Name="ImageURL" ColumnName="ImageURL" />
+          <ScalarProperty Name="CategoryId" ColumnName="CategoryId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="User">
+      <EntityTypeMapping TypeName="TriChemModel.User">
+        <MappingFragment StoreEntitySet="User">
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,94 @@
+D:\CodeI5\TriChem.Domain\bin\Debug\TriChem.Domain.dll.config
+D:\CodeI5\TriChem.Domain\bin\Debug\TriChem.Domain.dll
+D:\CodeI5\TriChem.Domain\bin\Debug\TriChem.Domain.pdb
+D:\CodeI5\TriChem.Domain\bin\Debug\EntityFramework.dll
+D:\CodeI5\TriChem.Domain\bin\Debug\EntityFramework.SqlServer.dll
+D:\CodeI5\TriChem.Domain\bin\Debug\EntityFramework.xml
+D:\CodeI5\TriChem.Domain\bin\Debug\EntityFramework.SqlServer.xml
+D:\CodeI5\TriChem.Domain\obj\Debug\TriChem.Domain.csprojAssemblyReference.cache
+D:\CodeI5\TriChem.Domain\obj\Debug\TriChem.Domain.csproj.CoreCompileInputs.cache
+D:\CodeI5\TriChem.Domain\obj\Debug\TriChem.Domain.csproj.CopyComplete
+D:\CodeI5\TriChem.Domain\obj\Debug\TriChem.Domain.dll
+D:\CodeI5\TriChem.Domain\obj\Debug\TriChem.Domain.pdb
+C:\Users\shereen\Desktop\TriChem\TriChem\TriChem.Domain\bin\Debug\TriChem.Domain.dll.config
+C:\Users\shereen\Desktop\TriChem\TriChem\TriChem.Domain\bin\Debug\TriChem.Domain.dll
+C:\Users\shereen\Desktop\TriChem\TriChem\TriChem.Domain\bin\Debug\TriChem.Domain.pdb
+C:\Users\shereen\Desktop\TriChem\TriChem\TriChem.Domain\bin\Debug\EntityFramework.dll
+C:\Users\shereen\Desktop\TriChem\TriChem\TriChem.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\shereen\Desktop\TriChem\TriChem\TriChem.Domain\bin\Debug\EntityFramework.xml
+C:\Users\shereen\Desktop\TriChem\TriChem\TriChem.Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\shereen\Desktop\TriChem\TriChem\TriChem.Domain\obj\Debug\TriChem.Domain.csprojResolveAssemblyReference.cache
+C:\Users\shereen\Desktop\TriChem\TriChem\TriChem.Domain\obj\Debug\TriChem.Domain.dll
+C:\Users\shereen\Desktop\TriChem\TriChem\TriChem.Domain\obj\Debug\TriChem.Domain.pdb
+D:\CodeI5\New folder\TriChem\TriChem\TriChem.Domain\bin\Debug\TriChem.Domain.dll.config
+D:\CodeI5\New folder\TriChem\TriChem\TriChem.Domain\bin\Debug\TriChem.Domain.dll
+D:\CodeI5\New folder\TriChem\TriChem\TriChem.Domain\bin\Debug\TriChem.Domain.pdb
+D:\CodeI5\New folder\TriChem\TriChem\TriChem.Domain\bin\Debug\EntityFramework.dll
+D:\CodeI5\New folder\TriChem\TriChem\TriChem.Domain\bin\Debug\EntityFramework.SqlServer.dll
+D:\CodeI5\New folder\TriChem\TriChem\TriChem.Domain\bin\Debug\EntityFramework.xml
+D:\CodeI5\New folder\TriChem\TriChem\TriChem.Domain\bin\Debug\EntityFramework.SqlServer.xml
+D:\CodeI5\New folder\TriChem\TriChem\TriChem.Domain\obj\Debug\TriChem.Domain.csprojAssemblyReference.cache
+D:\CodeI5\New folder\TriChem\TriChem\TriChem.Domain\obj\Debug\TriChem.Domain.csproj.CoreCompileInputs.cache
+D:\CodeI5\New folder\TriChem\TriChem\TriChem.Domain\obj\Debug\TriChem.Domain.csproj.CopyComplete
+D:\CodeI5\New folder\TriChem\TriChem\TriChem.Domain\obj\Debug\TriChem.Domain.dll
+D:\CodeI5\New folder\TriChem\TriChem\TriChem.Domain\obj\Debug\TriChem.Domain.pdb
+E:\Codei5\TriChemWebsite\sln\TriChem.Domain\bin\Debug\TriChem.Domain.dll.config
+E:\Codei5\TriChemWebsite\sln\TriChem.Domain\bin\Debug\TriChem.Domain.dll
+E:\Codei5\TriChemWebsite\sln\TriChem.Domain\bin\Debug\TriChem.Domain.pdb
+E:\Codei5\TriChemWebsite\sln\TriChem.Domain\bin\Debug\EntityFramework.dll
+E:\Codei5\TriChemWebsite\sln\TriChem.Domain\bin\Debug\EntityFramework.SqlServer.dll
+E:\Codei5\TriChemWebsite\sln\TriChem.Domain\bin\Debug\EntityFramework.xml
+E:\Codei5\TriChemWebsite\sln\TriChem.Domain\bin\Debug\EntityFramework.SqlServer.xml
+E:\Codei5\TriChemWebsite\sln\TriChem.Domain\obj\Debug\TriChem.Domain.csproj.CoreCompileInputs.cache
+E:\Codei5\TriChemWebsite\sln\TriChem.Domain\obj\Debug\TriChem.Domain.csproj.CopyComplete
+E:\Codei5\TriChemWebsite\sln\TriChem.Domain\obj\Debug\TriChem.Domain.dll
+E:\Codei5\TriChemWebsite\sln\TriChem.Domain\obj\Debug\TriChem.Domain.pdb
+E:\Codei5\TriChemWebsite\sln\TriChem.Domain\obj\Debug\TriChem.Domain.csprojAssemblyReference.cache
+D:\Codei5\TriChemWebsite\sln\TriChem.Domain\bin\Debug\TriChem.Domain.dll.config
+D:\Codei5\TriChemWebsite\sln\TriChem.Domain\bin\Debug\TriChem.Domain.dll
+D:\Codei5\TriChemWebsite\sln\TriChem.Domain\bin\Debug\TriChem.Domain.pdb
+D:\Codei5\TriChemWebsite\sln\TriChem.Domain\bin\Debug\EntityFramework.dll
+D:\Codei5\TriChemWebsite\sln\TriChem.Domain\bin\Debug\EntityFramework.SqlServer.dll
+D:\Codei5\TriChemWebsite\sln\TriChem.Domain\bin\Debug\EntityFramework.xml
+D:\Codei5\TriChemWebsite\sln\TriChem.Domain\bin\Debug\EntityFramework.SqlServer.xml
+D:\Codei5\TriChemWebsite\sln\TriChem.Domain\obj\Debug\TriChem.Domain.csprojAssemblyReference.cache
+D:\Codei5\TriChemWebsite\sln\TriChem.Domain\obj\Debug\TriChem.Domain.csproj.CoreCompileInputs.cache
+D:\Codei5\TriChemWebsite\sln\TriChem.Domain\obj\Debug\TriChem.Domain.csproj.CopyComplete
+D:\Codei5\TriChemWebsite\sln\TriChem.Domain\obj\Debug\TriChem.Domain.dll
+D:\Codei5\TriChemWebsite\sln\TriChem.Domain\obj\Debug\TriChem.Domain.pdb
+E:\Projects\TRICHEM\sln\TriChem.Domain\bin\Debug\TriChem.Domain.dll.config
+E:\Projects\TRICHEM\sln\TriChem.Domain\bin\Debug\TriChem.Domain.dll
+E:\Projects\TRICHEM\sln\TriChem.Domain\bin\Debug\TriChem.Domain.pdb
+E:\Projects\TRICHEM\sln\TriChem.Domain\bin\Debug\EntityFramework.dll
+E:\Projects\TRICHEM\sln\TriChem.Domain\bin\Debug\EntityFramework.SqlServer.dll
+E:\Projects\TRICHEM\sln\TriChem.Domain\bin\Debug\EntityFramework.xml
+E:\Projects\TRICHEM\sln\TriChem.Domain\bin\Debug\EntityFramework.SqlServer.xml
+E:\Projects\TRICHEM\sln\TriChem.Domain\obj\Debug\TriChem.Domain.csprojAssemblyReference.cache
+E:\Projects\TRICHEM\sln\TriChem.Domain\obj\Debug\TriChem.Domain.csproj.CoreCompileInputs.cache
+E:\Projects\TRICHEM\sln\TriChem.Domain\obj\Debug\TriChem.Domain.csproj.CopyComplete
+E:\Projects\TRICHEM\sln\TriChem.Domain\obj\Debug\TriChem.Domain.dll
+E:\Projects\TRICHEM\sln\TriChem.Domain\obj\Debug\TriChem.Domain.pdb
+E:\Projects\TRICHEM\Admin Panel\TriChem.Domain\bin\Debug\TriChem.Domain.dll.config
+E:\Projects\TRICHEM\Admin Panel\TriChem.Domain\bin\Debug\TriChem.Domain.dll
+E:\Projects\TRICHEM\Admin Panel\TriChem.Domain\bin\Debug\TriChem.Domain.pdb
+E:\Projects\TRICHEM\Admin Panel\TriChem.Domain\bin\Debug\EntityFramework.dll
+E:\Projects\TRICHEM\Admin Panel\TriChem.Domain\bin\Debug\EntityFramework.SqlServer.dll
+E:\Projects\TRICHEM\Admin Panel\TriChem.Domain\bin\Debug\EntityFramework.xml
+E:\Projects\TRICHEM\Admin Panel\TriChem.Domain\bin\Debug\EntityFramework.SqlServer.xml
+E:\Projects\TRICHEM\Admin Panel\TriChem.Domain\obj\Debug\TriChem.Domain.csprojAssemblyReference.cache
+E:\Projects\TRICHEM\Admin Panel\TriChem.Domain\obj\Debug\TriChem.Domain.csproj.CoreCompileInputs.cache
+E:\Projects\TRICHEM\Admin Panel\TriChem.Domain\obj\Debug\TriChem.Domain.csproj.CopyComplete
+E:\Projects\TRICHEM\Admin Panel\TriChem.Domain\obj\Debug\TriChem.Domain.dll
+E:\Projects\TRICHEM\Admin Panel\TriChem.Domain\obj\Debug\TriChem.Domain.pdb
+D:\Projects\TRICHEM\Admin Panel\TriChem.Domain\bin\Debug\TriChem.Domain.dll.config
+D:\Projects\TRICHEM\Admin Panel\TriChem.Domain\bin\Debug\TriChem.Domain.dll
+D:\Projects\TRICHEM\Admin Panel\TriChem.Domain\bin\Debug\TriChem.Domain.pdb
+D:\Projects\TRICHEM\Admin Panel\TriChem.Domain\bin\Debug\EntityFramework.dll
+D:\Projects\TRICHEM\Admin Panel\TriChem.Domain\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projects\TRICHEM\Admin Panel\TriChem.Domain\bin\Debug\EntityFramework.xml
+D:\Projects\TRICHEM\Admin Panel\TriChem.Domain\bin\Debug\EntityFramework.SqlServer.xml
+D:\Projects\TRICHEM\Admin Panel\TriChem.Domain\obj\Debug\TriChem.Domain.csprojAssemblyReference.cache
+D:\Projects\TRICHEM\Admin Panel\TriChem.Domain\obj\Debug\TriChem.Domain.csproj.CoreCompileInputs.cache
+D:\Projects\TRICHEM\Admin Panel\TriChem.Domain\obj\Debug\TriChem.Domain.csproj.CopyComplete
+D:\Projects\TRICHEM\Admin Panel\TriChem.Domain\obj\Debug\TriChem.Domain.dll
+D:\Projects\TRICHEM\Admin Panel\TriChem.Domain\obj\Debug\TriChem.Domain.pdb

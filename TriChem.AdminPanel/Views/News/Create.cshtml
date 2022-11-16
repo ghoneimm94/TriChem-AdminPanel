@@ -1,0 +1,78 @@
+﻿@model TriChem.Models.News.ViewModels.NewsDetailsVM
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<div class="flex-between py-5">
+  <h2 class="text-white m-0">Create News</h2>
+  <div>
+    @Html.ActionLink("Back to List", "Index", null, new { @class = "btn btn-warning py-3" })
+  </div>
+</div>
+
+@using (Html.BeginForm("Create", "News", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+    
+<div class="form-horizontal box-shadow bg-white b-6 p-5">
+
+  @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+  <div class="form-group">
+    @Html.LabelFor(model => model.Title, htmlAttributes: new { @class = "control-label col-md-3" })
+    <div class="col-md-8">
+      @Html.EditorFor(model => model.Title, new { htmlAttributes = new { @class = "form-control" } })
+      @Html.ValidationMessageFor(model => model.Title, "", new { @class = "text-danger" })
+    </div>
+  </div>
+
+  <div class="form-group">
+    @Html.LabelFor(model => model.Description, htmlAttributes: new { @class = "control-label col-md-3" })
+    <div class="col-md-8">
+      @Html.EditorFor(model => model.Description, new { htmlAttributes = new { @class = "form-control" } })
+      @Html.ValidationMessageFor(model => model.Description, "", new { @class = "text-danger" })
+    </div>
+  </div>
+
+  <div class="form-group">
+    @Html.LabelFor(model => model.Title_Ar, htmlAttributes: new { @class = "control-label col-md-3" })
+    <div class="col-md-8">
+      @Html.EditorFor(model => model.Title_Ar, new { htmlAttributes = new { @class = "form-control" } })
+      @Html.ValidationMessageFor(model => model.Title_Ar, "", new { @class = "text-danger" })
+    </div>
+  </div>
+
+  <div class="form-group">
+    @Html.LabelFor(model => model.Description_Ar, htmlAttributes: new { @class = "control-label col-md-3" })
+    <div class="col-md-8">
+      @Html.EditorFor(model => model.Description_Ar, new { htmlAttributes = new { @class = "form-control" } })
+      @Html.ValidationMessageFor(model => model.Description_Ar, "", new { @class = "text-danger" })
+    </div>
+  </div>
+
+  <div class="form-group">
+    @Html.LabelFor(model => model.ImageURL, htmlAttributes: new { @class = "control-label col-md-3" })
+    <div class="col-md-8">
+      <div class="choose_file">
+        <input type="file" name="Image" accept=".png,.jpg,.jpeg,.gif" multiple style="width: 32px; height: 32px" required />
+        @Html.ValidationMessageFor(model => model.ImageURL, "", new { @class = "text-danger" })
+      </div>
+    </div>
+  </div>
+
+  <div class="form-group">
+    @Html.LabelFor(model => model.LinkId, htmlAttributes: new { @class = "control-label col-md-3" })
+    <div class="col-md-8">
+      @Html.EditorFor(model => model.LinkId, new { htmlAttributes = new { @class = "form-control" } })
+      @Html.ValidationMessageFor(model => model.LinkId, "", new { @class = "text-danger" })
+    </div>
+  </div>
+
+
+  <div class="form-group">
+    <div class="col-xs-12 text-center">
+      <input type="submit" value="Create" class="btn btn-success" style="padding: 8px 55px;" />
+    </div>
+  </div>
+</div>
+}

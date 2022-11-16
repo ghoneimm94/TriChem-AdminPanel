@@ -1,0 +1,20 @@
+﻿.choose_file {
+    position: relative;
+    display: inline-block;
+    padding: 4px 0px 4px 6px;
+    width: 32px;
+    height: 32px;
+    font: italic 10pt Verdana;
+    color: Gray;
+    margin-top: 0px;
+    background: none;
+    background-image: url('../Content/img/upload.png');
+}
+
+    .choose_file input[type="file"] {
+        -webkit-appearance: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+    }

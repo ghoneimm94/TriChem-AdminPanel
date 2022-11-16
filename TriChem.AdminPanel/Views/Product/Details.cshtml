@@ -1,0 +1,195 @@
+﻿@model TriChem.AdminPanel.Models.Result<TriChem.Models.Product.ViewModels.ProductDetailsVM>
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<div class="flex-between py-5">
+  <h2 class="text-white m-0">Product Details</h2>
+  <div>
+    @Html.ActionLink("Back to List", "Index", null, new { @class = "btn btn-warning py-3" })
+    &nbsp;&nbsp;
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Entity.Id }, new { @class = "btn btn-primary py-3" })
+  </div>
+</div>
+
+
+<div class="box-shadow bg-white b-6 p-5">
+    <dl class="dl-horizontal">
+        <dt class="py-2">
+            @Html.DisplayNameFor(model => model.Entity.Title)
+        </dt>
+
+        <dd class="py-2">
+            @Html.DisplayFor(model => model.Entity.Title)
+        </dd>
+
+        <dt class="py-2">
+            @Html.DisplayNameFor(model => model.Entity.SubTitle)
+        </dt>
+
+        <dd class="py-2">
+            @Html.DisplayFor(model => model.Entity.SubTitle)
+        </dd>
+
+        <dt class="py-2">
+            @Html.DisplayNameFor(model => model.Entity.Description)
+        </dt>
+
+        <dd class="py-2">
+            @Html.DisplayFor(model => model.Entity.Description)
+        </dd>
+
+        <dt class="py-2">
+            @Html.DisplayNameFor(model => model.Entity.TypicalApplication)
+        </dt>
+
+        <dd class="py-2">
+            @Html.DisplayFor(model => model.Entity.TypicalApplication)
+        </dd>
+
+        <dt class="py-2">
+            @Html.DisplayNameFor(model => model.Entity.ProductFeatures)
+        </dt>
+
+        <dd class="py-2">
+            @Html.DisplayFor(model => model.Entity.ProductFeatures)
+        </dd>
+
+        <dt class="py-2">
+            @Html.DisplayNameFor(model => model.Entity.Properties)
+        </dt>
+
+        <dd class="py-2">
+            @Html.DisplayFor(model => model.Entity.Properties)
+        </dd>
+
+        <dt class="py-2">
+            @Html.DisplayNameFor(model => model.Entity.Title_Ar)
+        </dt>
+
+        <dd class="py-2">
+            @Html.DisplayFor(model => model.Entity.Title_Ar)
+        </dd>
+
+        <dt class="py-2">
+            @Html.DisplayNameFor(model => model.Entity.SubTitle_Ar)
+        </dt>
+
+        <dd class="py-2">
+            @Html.DisplayFor(model => model.Entity.SubTitle_Ar)
+        </dd>
+
+        <dt class="py-2">
+            @Html.DisplayNameFor(model => model.Entity.Description_Ar)
+        </dt>
+
+        <dd class="py-2">
+            @Html.DisplayFor(model => model.Entity.Description_Ar)
+        </dd>
+
+        <dt class="py-2">
+            @Html.DisplayNameFor(model => model.Entity.TypicalApplication_Ar)
+        </dt>
+
+        <dd class="py-2">
+            @Html.DisplayFor(model => model.Entity.TypicalApplication_Ar)
+        </dd>
+
+        <dt class="py-2">
+            @Html.DisplayNameFor(model => model.Entity.ProductFeatures_Ar)
+        </dt>
+
+        <dd class="py-2">
+            @Html.DisplayFor(model => model.Entity.ProductFeatures_Ar)
+        </dd>
+
+        <dt class="py-2">
+            @Html.DisplayNameFor(model => model.Entity.Properties_Ar)
+        </dt>
+
+        <dd class="py-2">
+            @Html.DisplayFor(model => model.Entity.Properties_Ar)
+        </dd>
+
+        <dt class="py-2">
+            @Html.DisplayNameFor(model => model.Entity.Index)
+        </dt>
+
+        <dd class="py-2">
+            @Html.DisplayFor(model => model.Entity.Index)
+        </dd>
+        <dt class="py-2">
+            @Html.DisplayNameFor(model => model.Entity.DataSheetPath)
+        </dt>
+
+        <dd class="py-2">
+            @if (!string.IsNullOrEmpty(Model.Entity.DataSheetPath))
+            {
+                var filePath = Model.Entity.DataSheetPath.Substring(Model.Entity.DataSheetPath.IndexOf('-'));
+                <a href="@Url.Content(filePath.Substring(filePath.IndexOf('/')))"><img src="~/Content/img/pdf.png" /></a>
+            }
+        </dd>
+
+        <dt class="py-2">
+            @Html.DisplayNameFor(model => model.Entity.CertificatePath)
+        </dt>
+
+        <dd class="py-2">
+            @if (!string.IsNullOrEmpty(Model.Entity.CertificatePath))
+            {
+                var filePath = Model.Entity.CertificatePath.Substring(Model.Entity.CertificatePath.IndexOf('-'));
+                <a href="@Url.Content(filePath.Substring(filePath.IndexOf('/')))"><img src="~/Content/img/pdf.png" /></a>
+            }
+        </dd>
+
+        <dt class="py-2">
+            @Html.DisplayNameFor(model => model.Entity.CategoryTitle)
+        </dt>
+
+        <dd class="py-2">
+            @Html.DisplayFor(model => model.Entity.CategoryTitle)
+        </dd>
+
+        <dt class="py-2">
+            @Html.DisplayNameFor(model => model.Entity.ImageURLs)
+        </dt>
+
+        <dd class="py-2">
+            @{
+                foreach (var image in Model.Entity.ImageURLs)
+                {
+                    if (!string.IsNullOrEmpty(image))
+                    {
+                        var path = image.Substring(image.IndexOf('-'));
+
+                        <img src="@Url.Content(path.Substring(path.IndexOf('/')))" style="width: 120px" />
+                    }
+                }
+            }
+        </dd>
+
+        <dt class="py-2">
+            @Html.DisplayNameFor(model => model.Entity.LinkId)
+        </dt>
+
+        <dd class="py-2">
+            @{
+                if (ViewBag.Related != null)
+                {
+                    foreach (var Related in ViewBag.Related as ICollection<TriChem.Models.Product.ViewModels.ProductListVM>)
+                    {
+                        if (!string.IsNullOrEmpty(Related.ImageURL))
+                        {
+                            @Html.DisplayFor(model => Related.Title)
+                            var path = Related.ImageURL.Substring(Related.ImageURL.IndexOf('-'));
+                            <img src="@Url.Content(path.Substring(path.IndexOf('/')))" style="width: 120px" />
+                           
+                        }
+                    }
+                }
+            }
+        </dd>
+
+    </dl>
+</div>

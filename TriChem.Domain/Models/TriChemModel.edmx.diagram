@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="89767afd377446b4b29b46ca872f4222" Name="Diagram1">
+        <EntityTypeShape EntityType="TriChemModel.Category" Width="1.5" PointX="0.75" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TriChemModel.Certificate" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="TriChemModel.Client" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TriChemModel.ClientFeedback" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TriChemModel.ContactInfo" Width="1.5" PointX="7.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TriChemModel.CustomerCertificate" Width="1.5" PointX="5.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TriChemModel.History" Width="1.5" PointX="7.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TriChemModel.News" Width="1.5" PointX="0.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TriChemModel.Product" Width="1.5" PointX="3" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="TriChemModel.ProductImage" Width="1.5" PointX="5.25" PointY="4.875" IsExpanded="true" />
+        <AssociationConnector Association="TriChemModel.FK_Certificate_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="TriChemModel.FK_Product_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="TriChemModel.FK_ProductImage_Product" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="TriChemModel.CategoryImage" Width="1.5" PointX="3" PointY="9.75" />
+        <AssociationConnector Association="TriChemModel.FK_CategoryImage_Category" />
+        <EntityTypeShape EntityType="TriChemModel.User" Width="1.5" PointX="8.375" PointY="9.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

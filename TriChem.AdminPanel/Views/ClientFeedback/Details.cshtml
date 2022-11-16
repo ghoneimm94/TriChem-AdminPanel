@@ -1,0 +1,78 @@
+﻿@model TriChem.AdminPanel.Models.Result<TriChem.Models.ClientFeedback.ViewModels.ClientFeedbackDetailsVM>
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<div class="flex-between py-5">
+  <h2 class="text-white m-0">Client FeedBack Details</h2>
+  <div>
+    @Html.ActionLink("Back to List", "Index", null, new { @class = "btn btn-warning py-3" })
+    &nbsp;&nbsp;
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Entity.Id }, new { @class = "btn btn-primary py-3" })
+  </div>
+</div>
+
+<div class="box-shadow bg-white b-6 p-5">
+    <dl class="dl-horizontal">
+        <dt class="py-2">
+            @Html.DisplayNameFor(model => model.Entity.ClientName)
+        </dt>
+
+        <dd class="py-2">
+            @Html.DisplayFor(model => model.Entity.ClientName)
+        </dd>
+
+        <dt class="py-2">
+            @Html.DisplayNameFor(model => model.Entity.ClientName_Ar)
+        </dt>
+
+        <dd class="py-2">
+            @Html.DisplayFor(model => model.Entity.ClientName_Ar)
+        </dd>
+
+        <dt class="py-2">
+            @Html.DisplayNameFor(model => model.Entity.ClientPosition)
+        </dt>
+
+        <dd class="py-2">
+            @Html.DisplayFor(model => model.Entity.ClientPosition)
+        </dd>
+
+        <dt class="py-2">
+            @Html.DisplayNameFor(model => model.Entity.ClientPosition_Ar)
+        </dt>
+
+        <dd class="py-2">
+            @Html.DisplayFor(model => model.Entity.ClientPosition_Ar)
+        </dd>
+
+        <dt class="py-2">
+            @Html.DisplayNameFor(model => model.Entity.Message)
+        </dt>
+
+        <dd class="py-2">
+            @Html.DisplayFor(model => model.Entity.Message)
+        </dd>
+
+        <dt class="py-2">
+            @Html.DisplayNameFor(model => model.Entity.Message_Ar)
+        </dt>
+
+        <dd class="py-2">
+            @Html.DisplayFor(model => model.Entity.Message_Ar)
+        </dd>
+
+        <dt class="py-2">
+            @Html.DisplayNameFor(model => model.Entity.ImageURL)
+        </dt>
+
+        <dd class="py-2">
+            @if (!string.IsNullOrEmpty(Model.Entity.ImageURL))
+            {
+                var path = Model.Entity.ImageURL.Substring(Model.Entity.ImageURL.IndexOf('-'));
+                <img src="@Url.Content( path.Substring(path.IndexOf('/')))" style="width: 150px" />
+            }
+        </dd>
+    </dl>
+</div>
